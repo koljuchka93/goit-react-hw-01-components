@@ -1,13 +1,15 @@
 import { Statistics } from './Statistics';
+import { StatList, StatItem } from "./Statistics.styled";
+
 
 export const StastisticsList = ({ data }) => {
     return (
-        <ul>
+        <StatList>
             {data.map( element => (
-                <li key={element.id}>
+                <StatItem key={element.id}>
                     <Statistics element={element}/>
-                </li>
+                </StatItem>
             ))}
-        </ul>
+        </StatList>
     )
 }
