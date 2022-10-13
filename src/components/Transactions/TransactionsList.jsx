@@ -1,5 +1,5 @@
 
-import { TransactHistory } from './Transactions.styled';
+import { TransactHistory} from './Transactions.styled';
 
 export const TransactionsList = ({ transactions }) => {
     return (
@@ -22,5 +22,6 @@ export const TransactionsList = ({ transactions }) => {
       ))}
     </tbody>
     </TransactHistory>
+    
     )
 }

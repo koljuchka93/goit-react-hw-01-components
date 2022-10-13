@@ -52,12 +52,12 @@ export const Name = styled.p`
     justify-content: space-evenly;
     list-style: none;
     background-color: #f3f6f9;
+    margin: 0;
 `;
 
 // StatsBox Li
 export const StatsBox = styled.li`
-    max-width: 25px;
-    border: 0.5px solid  ${p => p.theme.colors.black};
+    width: 100%;
 `;
 
 //   Label class="label"

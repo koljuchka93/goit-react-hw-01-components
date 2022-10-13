@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const StatisticsItem =styled.div`
     width: 350px;
     margin: auto auto;
-    border: solid 1px rgb(211, 221, 221);
+    
 `;
     
 //   .title {

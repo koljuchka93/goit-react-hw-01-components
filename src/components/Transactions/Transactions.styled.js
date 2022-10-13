@@ -1,15 +1,18 @@
 import styled from 'styled-components';
 
+
 export const TransactHistory = styled.table`
   border-collapse: collapse;
   border: 1px solid;
-  width: 40%;
+  width: 300px;
   margin: auto auto;
+  justify-content: center;
+  text-align: center;
   
   th {
     background-color: #04AA6D;
     color: white;
-    height: 30px;
+    padding: 5px 0 5px 0;
   }
   td {
     text-align: center;

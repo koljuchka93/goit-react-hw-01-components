@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const FriendsListt = styled.ul`
   width: 425px;
-  height: 100px;
-  margin:auto auto;
+  margin: auto auto;
+  justify-content: center;
 `;
 export const Item = styled.li`
   display: flex;
