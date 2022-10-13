@@ -36,3 +36,5 @@ TransactionsList.propTypes = {
     }),
   ),
 };
+
+export default TransactionsList;

@@ -22,3 +22,5 @@ Friend.propTypes = {
       }),
     ),
   };
+
+export default Friend;
