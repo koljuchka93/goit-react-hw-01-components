@@ -4,11 +4,11 @@ import user from './Profile/user.json';
 import { Stastistics } from './Statistics/Statistics';
 import data from './Statistics/data.json';
 
-import { FriendsList } from './Friend/FriendsList';
-import friends from './Friend/friends.json';
+import { FriendList } from './FriendList/FriendList';
+import friends from './FriendList/friends.json';
 
-import { TransactionsList } from './Transactions/TransactionsList';
-import transactions from './Transactions/transactions.json';
+import { TransactionHistory } from './TransactionHistory/TransactionHistory';
+import transactions from './TransactionHistory/transactions.json';
 
 
 export const App = () => {
@@ -22,8 +22,8 @@ export const App = () => {
       stats={user.stats}
     />
     <Stastistics data={data} />
-    <FriendsList friends={friends} />  
-    <TransactionsList transactions={transactions} />
+    <FriendList friends={friends} />  
+    <TransactionHistory transactions={transactions} />
   </div>
   );
 };
