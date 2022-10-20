@@ -2,11 +2,12 @@ import PropTypes from 'prop-types';
 import { StatList, StatItem,Label,Percentage,StatisticsItem } from "./Statistics.styled";
 
 
-export const Stastistics = ({ data }) => {
+export const Stastistics = ({ title, stats }) => {
     return (
-        <StatisticsItem>Upload Title
+        <StatisticsItem>
+            {title && <h2>{title}</h2>}
         <StatList>
-            {data.map( ({id,label,percentage}) => (
+            {stats.map( ({id,label,percentage}) => (
                 <StatItem key={id}>
                     <Label>{label}</Label>
                     <Percentage>{percentage}%</Percentage>

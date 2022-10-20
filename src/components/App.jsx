@@ -2,7 +2,7 @@ import { Profile } from './Profile/Profile';
 import user from './Profile/user.json';
 
 import { Stastistics } from './Statistics/Statistics';
-import data from './Statistics/data.json';
+import stats from './Statistics/data.json';
 
 import { FriendList } from './FriendList/FriendList';
 import friends from './FriendList/friends.json';
@@ -21,7 +21,9 @@ export const App = () => {
       avatar={user.avatar}
       stats={user.stats}
     />
-    <Stastistics data={data} />
+    <Stastistics title="Upload Stats"
+      stats={stats}
+     />
     <FriendList friends={friends} />  
     <TransactionHistory transactions={transactions} />
   </div>
